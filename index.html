@@ -1,100 +1,3 @@
-<!DOCTYPE html><html lang="hi">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sapna Yadav Online Services - Pro</title><style>
-body { font-family: Arial; margin: 0; padding: 0; background:#eef2f7; }
-header { background: linear-gradient(90deg,#007BFF,#00c6ff); color: white; padding: 25px; text-align: center; }
-nav { background: #000; padding: 12px; text-align: center; position:sticky; top:0; }
-nav a { color: white; margin: 12px; text-decoration: none; font-weight:bold; }
-nav a:hover { color: yellow; }
-section { padding: 30px; }
-h2 { color:#007BFF; text-align:center; }
-.services { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
-.card { background: white; padding: 20px; border-radius: 15px; box-shadow:0 5px 15px rgba(0,0,0,0.1); transition:0.3s; }
-.card:hover { transform: scale(1.05); }
-.btn { padding: 12px 18px; background: #28a745; color: white; border-radius: 6px; text-decoration:none; }
-footer { background: #000; color: white; text-align: center; padding: 15px; }
-.hero { text-align:center; padding:50px; }
-.hero h1 { font-size:30px; }
-.whatsapp { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; padding: 12px 18px; border-radius: 50px; text-decoration: none; }
-img { width:100%; border-radius:10px; }
-input, textarea { width:100%; padding:10px; margin:8px 0; }
-.login { background:#fff; padding:20px; border-radius:10px; max-width:300px; margin:auto; }
-</style></head><body><header>
-<h1>Sapna Yadav Online Services</h1>
-<p>Trusted Digital Service Center</p>
-</header><nav>
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#gallery">Gallery</a>
-<a href="#contact">Contact</a>
-<a href="#login">Login</a>
-</nav><section class="hero" id="home">
-<h1>Welcome to Sapna Yadav Online Services</h1>
-<p>Aapki har online seva ka trusted solution</p>
-<a class="btn" href="tel:9102284955">Call Now</a>
-</section><section id="services">
-<h2>Hamari Services</h2>
-<div class="services">
-<div class="card">Aadhar Card Service</div>
-<div class="card">PAN Card Apply</div>
-<div class="card">Online Form Fill</div>
-<div class="card">Mobile Recharge</div>
-<div class="card">Money Transfer</div>
-<div class="card">Ticket Booking</div>
-<div class="card">Electric Bill Payment</div>
-<div class="card">Exam Form Fill</div>
-</div>
-</section><section id="gallery">
-<h2>Gallery</h2>
-<div class="services">
-<div class="card"><img src="https://via.placeholder.com/300"></div>
-<div class="card"><img src="https://via.placeholder.com/300"></div>
-<div class="card"><img src="https://via.placeholder.com/300"></div>
-</div>
-</section><section>
-<h2>Location</h2>
-<iframe src="https://www.google.com/maps?q=Aurangabad+Bihar&output=embed" width="100%" height="300"></iframe>
-</section><section id="contact">
-<h2>Contact Us</h2>
-<p>Mobile: 9102284955</p>
-<p>Address: Kalyanpur, Barun, Aurangabad, Bihar</p><h3>Send Message</h3>
-<form>
-<input type="text" placeholder="Your Name" required>
-<input type="tel" placeholder="Mobile Number" required>
-<textarea placeholder="Your Message"></textarea>
-<button class="btn">Submit</button>
-</form>
-</section><section id="result">
-<h2>BSEB 12th Result 2026</h2>
-<p>Apna Bihar Board 12th (Inter) Result check karne ke liye niche button par click kare</p><div style="text-align:center; margin:20px 0;">
-<a class="btn" href="https://results.biharboardonline.com/" target="_blank">Check Result</a>
-</div><div class="services">
-<div class="card">
-<h3>Kaise Check Kare?</h3>
-<p>1. Roll Code dale<br>2. Roll Number dale<br>3. Submit par click kare</p>
-</div><div class="card">
-<h3>Important Notice</h3>
-<p>Result sirf official website se hi verify kare. Kisi bhi galat website se bachke rahe.</p>
-</div>
-</div></section><section>
-<h2>Online Payment</h2>
-<p>Scan & Pay</p>
-<img src="https://via.placeholder.com/200">
-</section><section id="login">
-<h2>Admin Login</h2>
-<div class="login">
-<input type="text" placeholder="Username">
-<input type="password" placeholder="Password">
-<button class="btn">Login</button>
-</div>
-</section><a class="whatsapp" href="https://wa.me/919102284955">Chat</a>
-
-<footer>
-<p>© 2026 Sapna Yadav Online Services</p>
-</footer></body>
-</html>
 <!DOCTYPE html>
 <html lang="hi">
 <head>
@@ -108,8 +11,9 @@ header { background: linear-gradient(90deg,#007BFF,#00c6ff); color: white; paddi
 nav { background: #000; padding: 12px; text-align: center; }
 nav a { color: white; margin: 12px; text-decoration: none; }
 section { padding: 30px; }
-.btn { padding: 12px 18px; background: green; color: white; border-radius: 6px; text-decoration:none; }
-.card { background: white; padding: 20px; margin:10px 0; border-radius: 10px; }
+h2 { color:#007BFF; }
+.btn { display:block; margin:10px 0; padding: 12px; background: green; color: white; border-radius: 6px; text-decoration:none; text-align:center; }
+.card { background: white; padding: 15px; margin:10px 0; border-radius: 10px; }
 footer { background: #000; color: white; text-align: center; padding: 15px; }
 </style>
 </head>
@@ -122,29 +26,68 @@ footer { background: #000; color: white; text-align: center; padding: 15px; }
 </header>
 
 <nav>
-<a href="#">Home</a>
+<a href="#services">Services</a>
 <a href="#result">Result</a>
 <a href="#contact">Contact</a>
 </nav>
 
-<section id="result">
-<h2>BSEB 12th Result 2026</h2>
-<p>Apna result check karne ke liye button par click kare</p>
+<!-- SERVICES -->
+<section id="services">
+<h2>Hamari Services</h2>
 
-<a class="btn" href="https://results.biharboardonline.com/" target="_blank">
-Check Result
-</a>
-
-<div class="card">
-<h3>Kaise Check Kare?</h3>
-<p>Roll Code + Roll Number daal kar result dekhein</p>
-</div>
+<div class="card">Aadhar Card Service</div>
+<div class="card">PAN Card Apply</div>
+<div class="card">Online Form Fill</div>
+<div class="card">Mobile Recharge</div>
+<div class="card">Money Transfer</div>
+<div class="card">Ticket Booking</div>
 
 </section>
 
+<!-- RESULT -->
+<section id="result">
+<h2>BSEB 12th Result 2026</h2>
+
+<p id="countdown">⏳ Result coming soon...</p>
+
+<!-- 3 FAST LINKS -->
+<a class="btn" href="https://results.biharboardonline.com/" target="_blank">Server 1 - Check Result</a>
+<a class="btn" href="http://interbiharboard.com/" target="_blank">Server 2 - Check Result</a>
+<a class="btn" href="https://secondary.biharboardonline.com/" target="_blank">Server 3 - Check Result</a>
+
+<div class="card">
+<h3>Kaise Check Kare?</h3>
+<p>Roll Code aur Roll Number daal kar result check kare</p>
+</div>
+
+<script>
+let countdown = document.getElementById("countdown");
+
+let resultTime = new Date("March 23, 2026 13:15:00").getTime();
+
+let timer = setInterval(function() {
+    let now = new Date().getTime();
+    let distance = resultTime - now;
+
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    if (distance > 0) {
+        countdown.innerHTML = "⏳ Result in: " + minutes + "m " + seconds + "s";
+    } else {
+        clearInterval(timer);
+        countdown.innerHTML = "✅ Result is Live Now!";
+    }
+}, 1000);
+</script>
+
+</section>
+
+<!-- CONTACT -->
 <section id="contact">
-<h2>Contact</h2>
+<h2>Contact Us</h2>
 <p>Mobile: 9102284955</p>
+<p>Address: Kalyanpur, Barun, Aurangabad, Bihar</p>
 </section>
 
 <footer>
