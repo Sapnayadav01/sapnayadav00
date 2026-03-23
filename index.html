@@ -1,129 +1,236 @@
-<h3>👀 Total Visitors</h3>
-<script src="https://www.freevisitorcounters.com/en/home/counter/1234567/t/0"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sapna Yadav Online Services</title>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DT094LYG28"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-DT094LYG28');
 </script>
-<!-- 🔥 MULTIPLE FAST SERVER --><!-- 🔥 FAST RESULT BANNER -->
-<section style="background:#ff0000; color:white; text-align:center; padding:20px; border-radius:10px;">
-
-<h2>🚨 BSEB 12th Result 2026 LIVE 🚨</h2>
-
-<p>⚡ Sabse Fast Server - Turant Result Check Kare</p>
-
-<a href="https://www.bsebexam.com/" target="_blank" 
-style="display:inline-block; margin-top:10px; padding:12px 20px; background:#00ff00; color:black; font-weight:bold; border-radius:5px; text-decoration:none;">
-👉 FAST RESULT CHECK (Best Server)
-</a>
-
-</section>
-<section style="background:#222; color:white; text-align:center; padding:20px; border-radius:10px;">
-
-<h2>🚀 Fast Result Servers</h2>
-
-<a class="btn" href="https://results.biharboardonline.com/" target="_blank">Server 1 (Fast)</a>
-<a class="btn" href="http://interbiharboard.com/" target="_blank">Server 2 (Backup)</a>
-<a class="btn" href="https://secondary.biharboardonline.com/" target="_blank">Server 3 (Backup)</a>
-
-</section>
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sapna Yadav Online Services</title>
 
 <style>
-body { font-family: Arial; margin: 0; padding: 0; background:#eef2f7; }
-header { background: linear-gradient(90deg,#007BFF,#00c6ff); color: white; padding: 25px; text-align: center; }
-nav { background: #000; padding: 12px; text-align: center; }
-nav a { color: white; margin: 12px; text-decoration: none; }
-section { padding: 30px; }
-h2 { color:#007BFF; }
-.btn { display:block; margin:10px 0; padding: 12px; background: green; color: white; border-radius: 6px; text-decoration:none; text-align:center; }
-.card { background: white; padding: 15px; margin:10px 0; border-radius: 10px; }
-footer { background: #000; color: white; text-align: center; padding: 15px; }
+body {
+    margin: 0;
+    font-family: Arial;
+    transition: 0.3s;
+    background: #f4f4f4;
+}
+
+/* DARK MODE */
+.dark {
+    background: #121212;
+    color: white;
+}
+
+header {
+    background: linear-gradient(90deg,#007BFF,#00C6FF);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* SEARCH */
+.search-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.dark .card {
+    background: #1e1e1e;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: darkgreen;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* FLOAT BUTTON */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: green;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+/* DARK TOGGLE */
+.toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
 </style>
 </head>
 
 <body>
 
+<div class="toggle" onclick="toggleDark()">🌙</div>
+
 <header>
 <h1>Sapna Yadav Online Services</h1>
-<p>Sabhi Online Services Ek Hi Jagah</p>
+<p>Sahi Online Services Ek Hi Jagah</p>
 </header>
 
 <nav>
-<a href="#services">Services</a>
-<a href="#result">Result</a>
-<a href="#contact">Contact</a>
+<a href="#">Services</a>
+<a href="#">Result</a>
+<a href="#">Contact</a>
 </nav>
 
-<!-- SERVICES -->
-<section id="services">
-<h2>Hamari Services</h2>
+<div class="container">
 
-<div class="card">Aadhar Card Service</div>
-<div class="card">PAN Card Apply</div>
-<div class="card">Online Form Fill</div>
-<div class="card">Mobile Recharge</div>
-<div class="card">Money Transfer</div>
-<div class="card">Ticket Booking</div>
-
-</section>
-
-<!-- RESULT -->
-<section id="result">
-<h2>BSEB 12th Result 2026</h2>
-
-<p id="countdown">⏳ Result coming soon...</p>
-
-<!-- 3 FAST LINKS -->
-<a class="btn" href="https://results.biharboardonline.com/" target="_blank">Server 1 - Check Result</a>
-<a class="btn" href="http://interbiharboard.com/" target="_blank">Server 2 - Check Result</a>
-<a class="btn" href="https://secondary.biharboardonline.com/" target="_blank">Server 3 - Check Result</a>
-
-<div class="card">
-<h3>Kaise Check Kare?</h3>
-<p>Roll Code aur Roll Number daal kar result check kare</p>
+<div class="search-box">
+<input type="text" id="search" placeholder="Search services..." onkeyup="searchFunc()">
 </div>
 
-<script>
-let countdown = document.getElementById("countdown");
+<h2>Our Services</h2>
 
-let resultTime = new Date("March 23, 2026 13:15:00").getTime();
+<div class="cards" id="serviceList">
+<div class="card">Aadhar Card</div>
+<div class="card">Online Form</div>
+<div class="card">Recharge</div>
+<div class="card">Money Transfer</div>
+<div class="card">Ticket Booking</div>
+</div>
 
-let timer = setInterval(function() {
-    let now = new Date().getTime();
-    let distance = resultTime - now;
+<h2>12th Result 2026</h2>
+<p id="countdown">Loading...</p>
 
-    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+<center>
+<a class="btn" href="https://results.biharboardonline.com" target="_blank">Check Result</a>
+</center>
 
-    if (distance > 0) {
-        countdown.innerHTML = "⏳ Result in: " + minutes + "m " + seconds + "s";
-    } else {
-        clearInterval(timer);
-        countdown.innerHTML = "✅ Result is Live Now!";
-    }
-}, 1000);
-</script>
+<h2>Total Visitors</h2>
+<center>
+<script src="https://www.freevisitorcounters.com/en/home/counter/1234567/t/0"></script>
+</center>
 
-</section>
+<h2>Contact</h2>
+<p>📞 9102849595</p>
+<p>📍 Kalyanpur, Bihar</p>
 
-<!-- CONTACT -->
-<section id="contact">
-<h2>Contact Us</h2>
-<p>Mobile: 9102284955</p>
-<p>Address: Kalyanpur, Barun, Aurangabad, Bihar</p>
-</section>
+</div>
 
 <footer>
 <p>© 2026 Sapna Yadav Online Services</p>
 </footer>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp" href="https://wa.me/919102849595" target="_blank">💬</a>
+
+<script>
+// DARK MODE
+function toggleDark() {
+    document.body.classList.toggle("dark");
+}
+
+// SEARCH
+function searchFunc() {
+    let input = document.getElementById("search").value.toLowerCase();
+    let cards = document.getElementById("serviceList").getElementsByClassName("card");
+
+    for (let i = 0; i < cards.length; i++) {
+        let text = cards[i].innerText.toLowerCase();
+        cards[i].style.display = text.includes(input) ? "" : "none";
+    }
+}
+
+// COUNTDOWN
+let countdown = document.getElementById("countdown");
+let resultTime = new Date("March 23, 2026 13:15:00").getTime();
+
+setInterval(() => {
+    let now = new Date().getTime();
+    let diff = resultTime - now;
+
+    let m = Math.floor((diff % (1000*60*60))/(1000*60));
+    let s = Math.floor((diff % (1000*60))/1000);
+
+    countdown.innerHTML = diff > 0 
+        ? "⏳ " + m + "m " + s + "s remaining"
+        : "🎉 Result is Live!";
+}, 1000);
+
+</script>
 
 </body>
 </html>
